@@ -1,0 +1,1 @@
+This is Magnitudo1987 first project!
