@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
+<title>Survey</title>
+<link href="styling.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="title">Music Survey</h1>
+        <p id="description"><em>Knowing your taste better</em></p>
+
+        <form action="" id="survey-form">
+ 
+
+
+            
+<!-- INPUT TEXT FOR NAME, EMAIL, NUMBER. DIV SO THEY ARE IN BOXES -->
+
+<div id="na-label">   
+<label for="name-label">
+    Name  <input 
+                type="text" 
+                placeholder="Enter your name here" 
+                name="name" 
+                id="name-label"
+                required
+                >
+</label>
+</div>
+
+<div id="em-label">
+<label for="email-label">
+    Email <input 
+                type="email" 
+                placeholder="Enter your email here" 
+                name="email" 
+                id="email-label"
+                required>
+</label>
+</div>
+
+<div id="nu-label">
+    <label for="number-label">
+        Number <input 
+                    type="number" 
+                    placeholder="Enter your number here" 
+                    name="number" 
+                    id="number-label"
+                    required
+                    min="1"
+                    max="99">
+    </label>
+    </div>
+<br>
+
+
+<!-- DROPDOWN SECTION -->
+
+<div id="dropdown">
+
+    <label for="gender">
+        Are you...?
+        <select name="gender" id="gender-label">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="prefer-not-to-say">Preffer not say</option>
+            required
+        </select>
+    </label>
+
+</div>
+    
+
+<!-- RADIO BUTTONS SECTION -->
+
+<p id="question">Do you play any instrument?</p>
+
+    <div id="radio">
+<label>
+    <input 
+            type="radio" 
+            name="user-choice" 
+            value="yes" 
+            checked 
+            required> Yes 
+</label>
+<br>
+<label>
+
+    <input 
+            type="radio" 
+            name="user-choice" 
+            value="not"            
+            required> No
+</label>
+</div>
+
+
+    <!-- CHECKBOXES SECTION -->
+
+    <p id="question2">If yes, what instrument do you play?</p>
+    
+    <div id="checkboxes">
+<label>
+<input  type="checkbox" 
+        id="instrument1" 
+        name="instrument1" 
+        value="Guitar"> Guitar
+</label>
+
+<label>
+    <input  type="checkbox" 
+            id="instrument2" 
+            name="instrument2" 
+            value="Bass"> Bass
+    </label>
+
+    <label>
+        <input  type="checkbox" 
+                id="instrument3" 
+                name="instrument3" 
+                value="Piano"> Piano
+        </label>    
+
+        <label>
+            <input  type="checkbox" 
+                    id="instrument4" 
+                    name="instrument4" 
+                    value="Piano"> Drums
+
+            </label>        
+</div>
+<div id="bottom">
+
+<!-- TEXTAREA SECTION -->
+
+<p>If your instrument is not on a list, type it here!</p>
+<textarea name="else" id="textarea" cols="30" rows="4" placeholder="Type here"></textarea>
+<br>
+
+<!-- BUTTON HERE -->
+
+<button>Submit</button>
+</div>
+</form>
+    </body>
+</html>

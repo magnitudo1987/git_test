@@ -1,0 +1,107 @@
+html {
+    font-size: 10px;
+}
+
+h1 {
+    font-family: Roboto, sans-serif, serif;
+    background-color: teal;
+    text-align: center;
+
+}
+
+body {
+    font-size: 2rem; 
+    font-family: Source Sans Pro, sans-serif, serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+    background-color: rgb(0, 0, 0);
+}
+
+#description {
+    background-color: brown;
+    text-align: center;
+    margin-top: -30px;
+    
+}
+
+/*   TEXT INPUT BOXES    */
+
+input[type=number] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  input[type=email] {
+      
+    width: 100%;
+    box-sizing: border-box;
+    
+  }
+
+  input[type=text] {
+  
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+#na-label {
+    background-color: blue;
+    
+}
+
+#em-label {
+    background-color: gray;
+    
+}
+
+#nu-label {
+    background-color: chocolate;
+    
+}
+
+/* DROPDOWN BOX */
+
+#dropdown {
+    background-color: cornsilk;
+}
+
+/* QUESTION 1 */
+
+#question {
+    background-color: greenyellow;
+    text-align: center;
+}
+
+/* RADIO BUTTONS */
+
+#radio {
+    background-color: goldenrod;
+}
+
+/* QUESTION 2 */
+#question2 {
+    background-color: hotpink;
+    text-align: center;
+}
+
+/* CHECK BOXES */
+
+#checkboxes {
+    background-color: darkgreen;
+    text-align: center;
+}
+
+/* BOTTOM */
+
+#bottom {
+    background-color: indigo;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+    body {
+        background-color: greenyellow;
+    }
+}
